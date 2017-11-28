@@ -5,11 +5,15 @@ one:
   description: MyText
   image_url: MyString
   price: 9.99
-  count: 1
 
 two:
   name: MyString
   description: MyText
   image_url: MyString
   price: 9.99
-  count: 1
+
+hammer: 
+  name: hammer
+  description: perfect
+  image_url: hammer.png
+  price: 14.95
