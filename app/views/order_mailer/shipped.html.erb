@@ -1,0 +1,11 @@
+<h3>Store order has shipped</h3>
+
+<p>
+	This email is to let you know that your order
+	has been shipped.
+</p>
+
+<table>
+	<tr><th colspan="2">Quantity</th><th>Description</th></tr>
+	<%= render @order.line_items %>
+</table>
